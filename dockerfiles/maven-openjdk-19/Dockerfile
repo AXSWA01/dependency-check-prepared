@@ -1,4 +1,4 @@
-FROM maven:3.8.6-amazoncorretto-19
+FROM maven:3.8.6-openjdk-19
 
 COPY ./warmup/pom.xml /warmup/pom.xml
 
